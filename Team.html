@@ -39,12 +39,26 @@
 
     <h2 align="center" style="color: green;" >Our Members</h3>
 
-<ul>
+<ul id="team">
     <li>Member 1 -   Omar Abdullah Alatawi 451007782 </li>
     <li>Member 2 -   Waleed Ahmed Al-Hattar 451010571</li>
 </ul>
 
 
+<script>
+window.onload = function() {
+    let team = document.getElementById("team");
+    let members = Array.from(team.children);
+
+    members.sort(() => Math.random() - 0.5);
+
+    team.innerHTML = "";
+
+    members.forEach(member => {
+        team.appendChild(member);
+    });
+};
+</script>
 
 <!----------------------------------------------------------------------------------------------------->
 <footer class="footer1">
