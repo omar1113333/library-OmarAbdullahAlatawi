@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+
+    <head>    
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="book1.jpg">
+        <title>
+         City Library
+        </title>
+    <style>
+
+    .available{
+        color:limegreen;
+        font-weight:bold;
+    }
+    .borrowed{
+        color:red;
+        font-weight:bold;
+    }
+    video{
+        display: block;
+        margin: 10px auto 10px auto;
+    }
+    #div_id2 {
+    border: 3px solid black;
+    padding: 10px 100px 20px 100px;
+    border-radius: 15px;
+    margin: 20px auto;
+    width: fit-content;
+    }
+    </style>
+        
+    </head>
+<body>
+
+
+<!----------------------------------------------------------------------------------------------------->
+
+<nav class="nav1">
+    <h3 class="h3-1">📚 City Library</h3>
+    <div>
+        <a href="Home.html">Home</a>
+        <a href="Books.html">Books</a>
+        <a href="Service.html">Service</a>
+        <a href="Discounts.html">Discounts</a>
+        <a href="Contact.html">Contact</a>
+        <a href="Team.html">Team</a>
+        </div>
+</nav>
+<!----------------------------------------------------------------------------------------------------->
+
+
+<div class="div1">
+    <h1>📚 Our Book Collection</h1>
+    <pre class="pre1">Browse our wide selection across all genres</pre>
+</div>
+
+
+<button>Book Catalog</button>
+
+<div id="div_id2">
+<p class="p1">Most Popular and Recommended Books</p>
+<table>
+    <tr>
+        <th>#</th>
+        <th>Title</th>
+        <th>Category</th>
+        <th>Year</th>
+        <th>Pages</th>
+        <th>Availability</th>
+    </tr>
+
+    <tr>
+        <td>1</td>
+        <td>The Great Gatsby</td>
+        <td>Fiction</td>
+        <td>1925</td>
+        <td>180</td>
+        <td class="available">Available</td>
+    </tr>
+
+    <tr>
+        <td>2</td>
+        <td>Atomic Habits</td>
+        <td>Self-Help</td>
+        <td>2018</td>
+        <td>320</td>
+        <td class="available">Available</td>
+    </tr>
+
+    <tr>
+        <td>3</td>
+        <td>The Alchemist</td>
+        <td>Fiction</td>
+        <td>1988</td>
+        <td>208</td>
+        <td class="borrowed">Borrowed</td>
+    </tr>
+</table>
+
+<p align="center" style="color: red;">Note: The original video has no sound</p>
+<video controls width="500" autoplay muted loop>
+    <source src="library_vid.mp4" type="video/mp4">
+    <source src="library_vid.webm" type="video/webm">
+
+</video>
+</div>
+
+
+<!----------------------------------------------------------------------------------------------------->
+<footer class="footer1">
+    <pre>&copy; Omar Abdullah Alatawi 451007782 
+  Waleed Ahmed Al-Hattar 451010571</pre>
+    <small><a href="mailto:test@gmail.com">Contact Us</a></small>
+    <hr>
+</footer>
+<!----------------------------------------------------------------------------------------------------->
+
+</body>
+</html>
